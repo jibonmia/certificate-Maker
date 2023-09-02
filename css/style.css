@@ -208,7 +208,18 @@ header .fa-bars{
         background-color: chocolate;
     }
 /* /portfolio */
-
+/* contact */
+    .ct-box{
+        padding: 3rem 9%;
+    }
+    .ct-box .box{
+        display: flex;
+        justify-content: space-between;
+    }
+    .ct-box .box div p{
+        font-size: 2rem;
+    }
+/* contact */
 /* media query / header*/
 @media(max-width:750px){
     header .fa-bars{
