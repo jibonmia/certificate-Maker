@@ -5,6 +5,9 @@ fabars.onclick = () =>{
     navbar.classList.toggle("active");
 }
 
-const heelo = 121;
+// add get start button
+document.getElementById('btn-start').addEventListener('click', function(){
+     window.location.href = 'login.html';
+})
 
-// thik ase?
+console.log("hello");
